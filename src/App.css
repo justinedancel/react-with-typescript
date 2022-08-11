@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+
+.list-item {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  width: 50rem;
+  margin: 0rem auto;
+  border: 0.1rem solid rgba(0, 0, 0, 0.233);
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.list-header {
+  display: flex;
+  align-items: center;
+}
+
+.list-header h2 {
+  color: rgb(37, 36, 36)
+}
+
+.list-image {
+  width: 5rem;
+  height: 4rem;
+  border-radius: 100%;
+  margin-right: 0.5rem;
+}
+
+.list-note {
+  width: 30%;
+  text-align: left;
+}
+
+.AddToList {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  margin: 5rem auto
+}
+
+.AddToList-input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin: 0.3rem 0rem
+}
+
+.AddToList-btn {
+  padding: 0.5rem;
+  cursor: pointer;
+  background-color: #0b5468;
+  font-weight: 700;
+  color: white;
+  border: none
+}
