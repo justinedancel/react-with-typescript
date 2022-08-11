@@ -69,20 +69,20 @@
   text-align: left;
 }
 
-.AddToList {
+.list-form {
   display: flex;
   flex-direction: column;
   width: 30rem;
   margin: 5rem auto
 }
 
-.AddToList-input {
+.list-form-input {
   padding: 0.5rem;
   font-size: 1rem;
   margin: 0.3rem 0rem
 }
 
-.AddToList-btn {
+.list-form-btn {
   padding: 0.5rem;
   cursor: pointer;
   background-color: #0b5468;

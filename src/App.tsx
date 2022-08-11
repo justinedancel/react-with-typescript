@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import List from "./components/List";
+import ListForm from './components/ListForm';
 
-interface IState {
+export interface IState {
     people: {
         name: string,
         age: number,
@@ -38,6 +39,7 @@ function App() {
         <div className="App">
             <h1>Some pretty okay baseball players</h1>
             <List people={people} />
+            <ListForm people={people} setPeople={setPeople} />
         </div>
     );
 }
